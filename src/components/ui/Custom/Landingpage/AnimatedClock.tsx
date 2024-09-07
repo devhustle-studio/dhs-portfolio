@@ -51,8 +51,8 @@ export const Technology = () => {
 const DELAY_IN_MS = 2500;
 const TRANSITION_DURATION_IN_SECS = 1.5;
 
-const LogoRolodex = ({ items }) => {
-  const intervalRef = useRef(null);
+const LogoRolodex = ({ items }:any) => {
+  const intervalRef = useRef<NodeJS.Timeout | null>(null);
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -126,7 +126,7 @@ const LogoRolodex = ({ items }) => {
   );
 };
 
-const LogoItem = ({ children, className }) => {
+const LogoItem = ({ children, className }:any) => {
   return (
     <div
       className={twMerge(
