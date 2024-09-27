@@ -1,8 +1,14 @@
-import React from 'react'
+"use client";
+import React, { useEffect } from 'react'
 
 export default function page() {
+
+  
+
+
   return (
     <div className='h-screen flex justify-center items-center font-sat text-4xl'>Projects</div>
+      
     
   )
 }

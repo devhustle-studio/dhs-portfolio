@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image'
-import logo from "@/assets/7.png"
+import logo from "@/assets/2.png"
 import React from 'react'
 
 export default function Hero() {
